@@ -12,7 +12,7 @@ export default function Home({navigation}) {
       <Text style={styles.homeTitle}>Book Your Own Stylist</Text>
       <Image style={styles.image} source = {require("../../assets/home.jpg")}/>
       <StatusBar style="auto" />
-      <TouchableOpacity style={styles.loginBtn} onPress={() => navigation.navigate('Login')}>
+      <TouchableOpacity style={styles.loginBtn} onPress={() => navigation.navigate('Store')}>
         <Text style={styles.loginText} color="#841584" >Let's Go</Text>
       </TouchableOpacity>
     </View>
